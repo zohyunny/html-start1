@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>web-grid</title>
+  <style>
+     #grid
+     {
+        border: 1px solid;
+        display:grid;
+        grid-template-columns: 100px 1fr;
+    }
+    div
+      {
+      border: 1px solid gray;
+      }
+
+    </style>
+</head>
+
+  <body>
+    <h1> Grid</h1>
+    <div id="grid">
+      <div>Navigation</div>
+      <div>Article, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</div>
+    </div>
+  </body>
+</html>
