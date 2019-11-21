@@ -1,0 +1,100 @@
+body {
+       background-color: white;
+       color: tomato;
+       font-family: sans-serif;
+       font-size: 100%;
+     }
+h1 {
+     color: darkred;
+     font-family: monospace;
+      font-size: 250%;
+      border: 1px solid black;
+   }
+p {
+  color:blue;
+  border: 1px solid red;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 100%;
+}
+
+#p01{
+     color: red;
+}
+
+p.error {
+  color: black;
+}
+
+q{
+  background-color: black;
+  color: tomato;
+  font-family: sans-serif;
+  font-size: 100%;
+}
+span.note {
+font-size: 120%;
+color: red;
+}
+
+.class1 {
+background-color: black;
+color: white;
+margin: 20px;
+padding: 20px;
+}
+
+.class2 {
+background-color: pink;
+color: white;
+margin: 20px;
+padding: 20px;
+}
+
+.class3 {
+background-color: DodgerBlue;
+color: white;
+margin: 20px;
+padding: 20px;
+}
+
+.alignc{
+text-align: center;
+
+
+}
+
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+table {
+border-spacing: 5px;
+}
+
+img {
+width: 100%;
+}
+a:link {
+color: green;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited {
+color: tomato;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: yellow;
+background-color: transparent;
+text-decoration: underline;
+}
