@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <!-- link rel="stylesheet" href="styles.css" 바깥 CSS 파일 따로 운영-->
+  <title>A Simple HTML Document</title>
+  <meta charset="UTF-8">
+  <style>
+    body {background-color:Orange;}
+    h1 {color:pink;}
+    /* p {color: red;} */
+
+  </style>
+  </head>
+<body <!-- style="background-color:powderblue;"-->> <!--제거시에 블루 배경 -->
+  <h1 title="헤드 폰트사이즈 조정" style=" text-align:center; font-size:80px; font-family:verdana; color:blue;"> My First Heading </h1>
+<hr>
+  <h2> My Second Heading </h2>
+  <h1>Heading 1</h1>
+  <ol>
+  <li>Use the style attribute for styling HTML elements</li>
+  <li>Use background-color for background color</li>
+  <li>Use color for text colors</li>
+  <li>Use font-family for text fonts</li>
+  <li>Use font-size for text sizes</li>
+  <li>Use text-align for text alignment</li>
+</ol>
+  <hr>
+  <p>Search engines use the headings to index the structure and content of your web pages.
+
+Users often skim a page by its headings. It is important to use headings to show the document structure.
+
+<h1> headings should be used for main headings, followed by <h2> headings, then the less important <h3>, and so on.
+</p>
+  <hr>
+  <p title="문단내 팝업 title, tooltip 처리" style="font-size:150%; color:gray;"> My First paragraph
+Article, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+  <p title='문단내 팝업 title, tooltip 처리' style="color:blue"> My First paragraph
+Article, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+  <p title="src 주요사용"> src	Specifies the URL (web address) for an image</p>
+
+<p> This is my another paragraph<br>
+Article, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+<hr>
+<p>
+This paragraph<br>
+contains a lot of lines<br>
+in the source code,<br>
+but the browser<br>
+ignores it.<br>
+</p>
+<p style="color:red;"> 위쪽은 br(브레이크)구문 삽입 아래는 pre 구문 사용 시같은 내용 중간 삽입시 이용될거 같음
+</p>
+
+<p>
+  <pre>
+  This paragraph
+  contains a lot of lines
+  in the source code,
+  but the browser
+  ignores it.
+</pre>
+</p>
+<hr>
+  <div>
+  <a href="https://www.w3schools.com">This is a My first link</a>
+  <a href=https://www.w3schools.com>This is a My first link</a>
+  <img title="그림 로딩 실패시 텍스트 처리  alt" src="img_girl.jpg" alt="Girl with a jacket">
+</div>
+
+  <div>
+  <img src="w3cmain.png" alt="W3Schools.com" width="300" height="142">
+</div>
+
+<div>
+  <button>push</button>
+</div>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<hr>
+
+<b title="bold<b></b>">This text is bold</b><br>
+<strong>This text is strong</strong><br>
+<i>This text is italic</i><br>
+<em>This text is emphasized</em><br>
+<h2>HTML <small>Small</small> Formatting</h2>
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+<p>My favorite color is <del>blue</del> red.</p>
+<p>My favorite <ins>color</ins> is red.</p>
+<p>This is <sub>subscripted</sub> text.</p>
+<p>This is <sup>superscripted</sup> text.</p>
+<hr>
+<p>HTML Quotation and Citation Elements 2019.11.19</p>
+<p title="<q>퀘테이션">WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<hr>
+<h3>colors</h3>
+<a href="https://www.w3schools.com/colors/colors_names.asp"> <font style="color:tomato; font-size:30px;"> Color lists 140</font></a>
+<h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+<hr>
+<h1 title="background colors" style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
+<hr>
+<h1 title="text colors"style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+<hr>
+<h1 title="border colors" style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+<hr>
+
+
+<h1 title="border colors" style="border:4px solid Tomato;"> START!!! HTML Styles - CSS</h1>
+<p>Styling HTML with CSS<br>
+CSS stands for Cascading Style Sheets.<br>
+
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media.<br>
+
+CSS saves a lot of work. It can control the layout of multiple web pages all at once.<br>
+
+CSS can be added to HTML elements in 3 ways:</p>
+<hr>
+<p>Inline CSS<br>An inline CSS is used to apply a unique style to a single HTML element.<br>
+
+An inline CSS uses the style attribute of an HTML element.<br>
+
+This example sets the text color of the h1 element to blue</p>
+<br>
+<br>
+<hr>
+
+<h1 style="color:blue;"> 이것은 파란색 헤드구성 입니다.</h1>
+
+
+  </body>
+</html>
