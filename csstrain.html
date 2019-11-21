@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS TRAINING</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+  /*
+  body {
+  background-image: url('html5.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+        } */
+</style>
+  </head>
+
+  <body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+    <p id="p01">This is a P01 adapted red text paragraph.<br>
+           <q>#p01{color: red;} <--style1.css </q>
+    </p>
+        abcdefghijklmn
+        <hr>
+    <p> The class Attribute </p>
+    <p class="error"> this is error class example </p>
+
+    <a href="https://www.w3schools.com/html/" target="_blank">Visit our HTML tutorial</a><br>
+    <a href="w3cmain.png">HTML Images link</a><br>
+    <q> 매우중요 a href="w3cmain.png" target="_blank" 새창으로 열기 속성</q><br>
+    <img src="w3cmain.png" alt="HTML tutorial" style="width:500px;height:100px;border:0;" title="border:0"><br>
+    <q>Note: border:0; is added to prevent IE9 (and earlier) from displaying a <br>border around the image (when the image is a link).</q>
+    <hr>
+    <p>HTML Link Colors</p>
+    <ul>
+
+    By default, a link will appear like this (in all browsers):
+    <li>An unvisited link is underlined and blue</li>
+    <li>A visited link is underlined and purple</li>
+    <li>An active link is underlined and red</li>
+</ul>
+<hr>
+<h1>HTML Link Bookmarks 2019.11.20 study later<br>ㅜㅡㅜ</h1>
+<hr>
+<h1>HTML Images</h1>
+
+<q> img src="pic_trulli.jpg" alt="Italian Trulli"><br>
+  img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;"><br>
+  img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"><br><br>
+  Note: Always specify the width and height of an image.<br> If width and height are not specified, the page might flicker while the image loads.<br><br>
+  The width, height, and style attributes are valid in HTML.<br>
+
+  However, we suggest using the style attribute. It prevents styles sheets from changing the size of images:</q>
+
+  <h2>Styling Images</h2>
+<p>The image below has the width attribute set to 128 pixels, but the stylesheet overrides it, and sets the width to 100%.</p>
+<img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
+
+<p>The image below uses the style attribute, where the width is set to 128 pixels which overrides the stylesheet:</p>
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+<p>HTML Images Syntax<br>
+In HTML, images are defined with the img> tag.br>
+
+The img> tag is empty, it contains attributes only, and does not have a closing tag.<br>
+
+The src attribute specifies the URL (web address) of the image:</p>
+
+
+<p><img src="html5.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p>
+
+
+  <h2>Chapter Summary</h2>
+    <ol>
+<li>Use the HTML <img> element to define an image</li>
+<li>Use the HTML src attribute to define the URL of the image</li>
+<li>Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed</li>
+<li>Use the HTML width and height attributes to define the size of the image</li>
+<li>Use the CSS width and height properties to define the size of the image (alternatively)</li>
+<li>Use the CSS float property to let the image float</li>
+</ol>
+<h1>HTML Background Images with style</h1>
+<p>If  you want  the background image cover the entire element, you can set the background-size property to cover.<br>
+
+Also, to make sure the entire element is always covered, set the background-attachment property to fixed:<br>
+
+</p>
+
+
+<h1>HTML Tables</h1>
+
+<p>Defining an HTML Table
+An HTML table is defined with the table> tag.
+
+Each table row is defined with the tr> tag. A table header is defined with<br> the th> tag. By default, table headings are bold and centered.<br> A table data/cell is defined with the td> tag.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+
+<table style="width:100%">
+   <caption>Telephone th colspan</caption>
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Telephone th colspan="2"</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>55577854</td>
+    <td>55577855</td>
+  </tr>
+</table>
+
+<h1>HTML Lists</h1>
+<p>disc	Sets the list item marker to a bullet (default)<br>
+circle	Sets the list item marker to a circle<br>
+square	Sets the list item marker to a square</p>
+<q> ul style="list-style-type:disc;"></q>
+<ul style="list-style-type:disc;">
+<li>Use the HTML src attribute to define the URL of the image</li>
+<li>Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed</li>
+<li>Use the HTML width and height attributes to define the size of the image</li>
+<li>Use the CSS width and height properties to define the size of the image (alternatively)</li>
+<li>Use the CSS float property to let the image float</li>
+</ul>
+
+<br>
+<h1>HTML Block and Inline Elements</h1>
+<p>Every HTML element has a default display value depending on what type of element it is.
+
+<br>The two display values are: block and inline.</p>
+<ul>
+  <li>Block-level Elements <br>
+A block-level element always starts on a new line and takes up the full width available<br> (stretches out to the left and right as far as it can).</li>
+
+<div style="background-color:tomato;color:white;padding:20px;">
+<h2>The div Element</h2>
+<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+<hr>
+   <table>
+     <tr>
+       <td>address</td>
+       <td>article></td>
+       <td>aside></td>
+       <td>blockquote></td>
+       <td>canvas></td>
+      </tr>
+      <tr>
+        <td>div></td>
+        <td>h1>-h6></td>
+        <td>li></td>
+        <td>hr></td>
+        <td>pre></td>
+      </tr>
+  </table>
+  <li>Inline Elements <br>An inline element does not start on a new line and only <br>takes up as much width as necessary.
+
+This is an inline<br> span> element inside a paragraph.</li>
+
+My <span style="color:red">Important</span> Heading
+
+</ul>
+
+<h1>HTML The class Attribute, Using The <span style="color:red; font-size:150%;">class</span> Attribute</h1>
+<p>The HTML class attribute is used to define equal styles for elements with the same class name.<br>
+
+So, all HTML elements with the same class attribute will get the same style.<br>
+
+Here we have three div> elements that point to the same class name:</p>
+<div class="class1">
+  <h2>class1</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="class2">
+  <h2>class2</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="class3 alignc">
+<h2>class3 alignc class</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<h1>My <span class="note">Important span</span> Heading</h1>
+<p>This is some <span class="note">important span</span> text.</p>
+
+<hr>
+
+<h1>HTML The id(<span class="note">#</span>) Attribute</h1>
+<p>Using The id Attribute
+The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document).<br>
+
+The id value can be used by CSS and JavaScript to perform certain tasks for the element with the specific id value.<br>
+
+In CSS, to select an element with a specific id, write a hash (#) character, followed by the id of the element:</p>
+
+
+
+
+
+  </body>
+</html>
